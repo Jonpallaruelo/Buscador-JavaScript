@@ -1,0 +1,45 @@
+body{
+
+height: 100vh;
+
+}
+
+.container{
+
+
+    max-width: 500px;
+}
+
+input[type=text],input[type=text]:focus{
+
+background: darkslategray;
+color: ghostwhite;
+border: none;
+
+}
+#buscar::placeholder{
+
+
+color: ghostwhite;
+
+}
+.delete{
+
+    cursor: pointer;
+}
+.tarea{
+
+margin-top: .5em;
+
+
+}
+
+.tareas li{
+
+    background: rgb(176, 176, 200);
+}
+
+.filtrados{
+
+display: none;
+}

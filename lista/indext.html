@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ca76cf5e44.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="text-center">
+
+            <h1 class="mt-4 mb-4">TAREAS PENDIENTES</h1>
+            <hr class="border border-secondary border-1 opacity-50">
+            <form class="buscar">
+                <input type="text" class="form-control" id="buscar" placeholder="Buscar tareas...">
+
+
+
+            </form>
+        </header>
+
+        <!-- lista -->
+
+        <ul class="list-group tareas">
+            <li class="list-group-item d-flex justify-content-between align-items-center tarea">
+
+
+                <span>Ir a la compra</span>
+                <i class="fa-solid fa-trash delete"></i>
+
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center tarea">
+
+
+                <span>Leer un rato</span>
+                <i class="fa-solid fa-trash delete"></i>
+
+            </li>
+
+
+            <li class="list-group-item d-flex justify-content-between align-items-center tarea">
+
+
+                <span>Pasear al perro</span>
+                <i class="fa-solid fa-trash delete"></i>
+
+            </li>
+
+
+
+
+        </ul>
+
+
+        <!-- Añadir tarea  -->
+
+        <form class="text-center  mt-4 añadir" action="">
+            <label class="mt-2 mb-2" for="">Añadir nueva tarea:</label>
+            <input class="form-control" name="añadir" type="text">
+
+
+
+
+
+
+        </form>
+
+
+
+
+    </div>
+    <script src="2.js"></script>
+
+</body>
+
+</html>
